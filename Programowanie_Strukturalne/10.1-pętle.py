@@ -1,6 +1,6 @@
 #pętle zadania
-'''
-Podaj wartosc początkową i końcową,która będzie wypisana w porządku malejącym
+
+#Podaj wartosc początkową i końcową,która będzie wypisana w porządku malejącym
 
 x = int(input('Podaj x: '))
 y = int(input('Podaj y: '))
@@ -14,13 +14,13 @@ for i in range(x,y-1,-1):
 
 print('\n\n')
 
-
+'''
 *
 **
 ***
 ****
 *****
-
+'''
 i=1
 for i in range(0, 1):
     for i in range(1, 6):
@@ -38,7 +38,7 @@ znak = input('Znak: ')
 for i in range(1,ilosc+1):
     print(znak * i)
     i=i+1
-'''
+
 
 #############################################
 #oblicz wartosc wyrazenia
@@ -77,9 +77,9 @@ print('Koniec programu')
 
 ######################### zadanie ##########
 '''
-Użytkownik podaje z klawiatury hasło,jeśli poda hasło: 'okon'
-to na ekranie wyswietlamy mu komunikat: 'Poprawne haslo'
-Uzytkowanik ma na podanie hasla trzy proby ,Jesli przekroczy ilosc prob to na ekranie pojawi mu sie komunikat przekroczono limit prob podania hasla
+#Użytkownik podaje z klawiatury hasło,jeśli poda hasło: 'okon'
+#to na ekranie wyswietlamy mu komunikat: 'Poprawne haslo'
+#Uzytkowanik ma na podanie hasla trzy proby ,Jesli przekroczy ilosc prob to na ekranie #pojawi mu sie komunikat przekroczono limit prob podania hasla
 '''
 #moja propozycja
 for i in range(0,3):
@@ -93,21 +93,21 @@ if i+1 == 3:
 
 
 #propozycja nauczyciela
-'''
-while password != 'okon' or password == 'test':
+
+while password != 'okon' or password != 'test':
     print('ok')
     password = input('Podaj haslo: ')
-'''
+import os
 os.system('cls')
 count = 1
 password = input('Podaj haslo ')
 
-while password != 'okon' and cout !=3
+while password != 'okon' and cout !=3:
     count=count + 1
     password = input('Podaj haslo: ')
 if password =='okon':
     print(f'haslo oddgadniete za {count} proba ')
-if count ===3 and password != 'okon':
+if count ==3 and password != 'okon':
     print('przekroczono limit prob podania hasla!!!')
     ###############################
 
