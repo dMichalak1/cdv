@@ -1,4 +1,4 @@
-'''
+
 def wyswietl(num1, num2):
 	print(f'Liczba 1: {num1}')
 	print(f'Liczba 2: {num2}')
@@ -17,7 +17,7 @@ wyswielArgs(*imiona)			#Wyświtla wszystko jako kolejne elementy
 ################################
 import os
 os.system('cls')
-'''
+
 ################################
 #**kwargs
 ################################
