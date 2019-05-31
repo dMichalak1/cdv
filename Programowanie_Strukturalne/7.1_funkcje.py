@@ -64,7 +64,7 @@ miasto1 ={						#Słownik
 	1:'Poznan'
 }
 
-print(f'Przed wywołaniem funkcji show1: {miasto1}')
+print(f'Przed wywołaniem funkcji show2: {miasto1}')
 print(f'\Id Przed modyfikacją: {id(miasto1)}')
 show2(list(miasto1))
 print(f'Po wywołaniu funkcji: {miasto1}')

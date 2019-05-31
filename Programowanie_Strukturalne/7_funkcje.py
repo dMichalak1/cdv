@@ -1,4 +1,4 @@
-'''
+
 def witaj():
     print('Witaj', end=' ')
     print('Janusz')
@@ -6,7 +6,7 @@ witaj()
 def wyswietlWiek(wiek):
     print(f'Twój wiek: {wiek}')
 wyswietlWiek(20)
-'''
+
 
 
 
